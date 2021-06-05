@@ -307,5 +307,5 @@ record record_manager::select_item(table t, attribute a, element e, int offset)
 	}
 	throw error(0, "r_m", "sel_item", "不存在所要找的记录\n如果出现了本信息的话，应该是因为曾经进行了区间删除操作，导致index没有删除");
 }
-
+////TTTTTTTT第一次修改
 
